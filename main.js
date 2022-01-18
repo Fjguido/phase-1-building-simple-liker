@@ -4,6 +4,25 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const error = document.querySelector('#modal')
+error.classList.add('hidden');
+const glyphAll = document.querySelectorAll('.like-glyph')
+glyphAll.forEach(like => {
+  like.addEventListener("click", function (e) {
+    mimicServerCall()
+  })
+})
+
+
+
+
+
+
+
+  
+
+
+
 
 
 
